@@ -44,3 +44,14 @@ class BanditEnvironment:
         # Reset the environment to initial state.
         self.q_star = np.random.normal(0,1, self.n_arms)
         self.reward_history = []
+
+    def get_status(self):
+        """
+        Returns the current status of the environment.
+        :return: A dictionary with the true values of the arms and the reward history.
+        """
+        return {
+            "q_star": self.q_star.copy(),  # To avoid unintentional modifications
+            "reward_history": self.reward_history.copy()
+        }
+    
