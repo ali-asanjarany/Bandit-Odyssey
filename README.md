@@ -18,7 +18,7 @@ Each algorithm's performance is evaluated based on average rewards over 1000 ste
 
 ## Analysis of the Results  
 
-![Plot of average rewards](Simulat Figure 2.6 .png)
+![Plot of average rewards](Simulat_Figure2.6.png)
 
 
 ### **1. Description of the Plot**  
